@@ -1,8 +1,11 @@
 using NUnit.Framework;
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Data;
 using TMPro;
+using Unity.HLODSystem;
+using Unity.HLODSystem.Streaming;
 using Unity.Profiling;
 using UnityEngine;
 using UnityEngine.Rendering;
@@ -13,7 +16,7 @@ namespace Unity.FantasyKingdom
     public class StatsCanvasController : MonoBehaviour
     {
         public GameObject InputProviderObject;
-        
+
         public GameObject Panel;
 
         public TextMeshProUGUI Draws, Verts, FPS, CPU, GPU;
@@ -22,7 +25,9 @@ namespace Unity.FantasyKingdom
 
         IInputProvider inputProvider;
 
-        bool gpuToggle = true;
+        bool hlodToggle = true;
+        bool grdToggle = true;
+        bool gpuOCToggle = true;
         bool stpToggle = true;
         long vertexCount;
         List<long> vertexCountSamples = new List<long>();
@@ -44,27 +49,24 @@ namespace Unity.FantasyKingdom
             inputProvider = InputProviderObject.GetComponent<IInputProvider>();
             drawCallsRecorder = ProfilerRecorder.StartNew(ProfilerCategory.Render, "Draw Calls Count");
             verticesRecorder = ProfilerRecorder.StartNew(ProfilerCategory.Render, "Vertices Count");
-            cpuMainThreaTimeRecorder = ProfilerRecorder.StartNew(ProfilerCategory.Render,"CPU Main Thread Frame Time", sampleCount);
+            cpuMainThreaTimeRecorder = ProfilerRecorder.StartNew(ProfilerCategory.Render, "CPU Main Thread Frame Time", sampleCount);
             gpuFrameTimeRecorder = ProfilerRecorder.StartNew(ProfilerCategory.Render, "GPU Frame Time", sampleCount);
             mainThreadTimeRecorder = ProfilerRecorder.StartNew(ProfilerCategory.Internal, "Main Thread", sampleCount);
         }
 
-      
-        
-
-
         // Update is called once per frame
         void Update()
         {
-            if (inputProvider.StatPanelGesture || inputProvider.StatPanelButton) {
+            if (inputProvider.StatPanelGesture || inputProvider.StatPanelButton)
+            {
                 Panel.SetActive(!Panel.activeInHierarchy);
             }
             UpdateStats();
             Draws.text = $"{drawCallCount}";
             Verts.text = $"{(vertexCount / 1000000f):F1} m";
-            FPS.text = $"{1/(GetRecorderFrameAverage(mainThreadTimeRecorder) * (1e-9f)):F1}";
-            CPU.text = $"{GetRecorderFrameAverage(cpuMainThreaTimeRecorder)*(1e-6f):F1}";
-            GPU.text =$"{GetRecorderFrameAverage(gpuFrameTimeRecorder) * (1e-6f):F1}";
+            FPS.text = $"{1 / (GetRecorderFrameAverage(mainThreadTimeRecorder) * (1e-9f)):F1}";
+            CPU.text = $"{GetRecorderFrameAverage(cpuMainThreaTimeRecorder) * (1e-6f):F1}";
+            GPU.text = $"{GetRecorderFrameAverage(gpuFrameTimeRecorder) * (1e-6f):F1}";
 
         }
 
@@ -126,13 +128,47 @@ namespace Unity.FantasyKingdom
             return r;
         }
 
+        public void ToggleHLOD()
+        {
+            hlodToggle = !hlodToggle;
 
-       
+            var HLODs = FindObjectsByType<DefaultHLODController>(FindObjectsInactive.Include, FindObjectsSortMode.None);
+
+            foreach (var HLOD in HLODs)
+            {
+                HLOD.SetControlMode(hlodToggle ? HLODControllerBase.Mode.AutoControl : HLODControllerBase.Mode.DisableHLOD);
+            }
+
+            StartCoroutine(DelayedHLODCameraActiviation());
+        }
+
+        // Don't immediately disable the CameraRecognizer! It's responsible for deactivating any HLOD meshes in view if those were disabled during a frame.
+        // So if we disable both HLODs and the recognizer in the same frame we only disable the HLOD updating, but don't revert to the real objects.
+        IEnumerator DelayedHLODCameraActiviation()
+        {
+            // Wait until frame n + 1 begins.
+            yield return new WaitForFixedUpdate();
+            // Wait until frame n + 1 has defintely disabled any visible HLOD meshes.
+            yield return new WaitForEndOfFrame();
+
+            var cameraRecognizers = FindObjectsByType<HLODCameraRecognizer>(FindObjectsInactive.Include, FindObjectsSortMode.None);
+
+            foreach (var cameraRecognizer in cameraRecognizers)
+            {
+                cameraRecognizer.enabled = hlodToggle;
+            }
+        }
 
         public void ToggleResidentDrawer()
         {
-            gpuToggle = !gpuToggle;
-            urp.gpuResidentDrawerMode = gpuToggle ? GPUResidentDrawerMode.InstancedDrawing : GPUResidentDrawerMode.Disabled;
+            grdToggle = !grdToggle;
+            urp.gpuResidentDrawerMode = grdToggle ? GPUResidentDrawerMode.InstancedDrawing : GPUResidentDrawerMode.Disabled;
+        }
+
+        public void ToggleGPUOcclusionCulling()
+        {
+            gpuOCToggle = !gpuOCToggle;
+            urp.gpuResidentDrawerEnableOcclusionCullingInCameras = gpuOCToggle;
         }
 
         public void ToggleSTP()
@@ -151,5 +187,5 @@ namespace Unity.FantasyKingdom
             gpuFrameTimeRecorder.Dispose();
         }
     }
-    }
+}
 

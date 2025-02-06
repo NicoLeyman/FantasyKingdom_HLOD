@@ -83,7 +83,7 @@
       "dependencies": {
         "com.unity.settings-manager": "2.0.1"
       },
-      "hash": "6f03e9105624c25160e6092f6184674a18434d4a"
+      "hash": "0db376773a54fc8fcf8fc9303b255550b89f60ec"
     },
     "com.unity.ide.rider": {
       "version": "3.0.31",
