@@ -20,6 +20,7 @@ namespace Unity.FantasyKingdom
         SerializedProperty cameraDragSpeedProp;
         SerializedProperty cameraRotateSpeedProp;
         SerializedProperty cameraZoomSpeedProp;
+        SerializedProperty allowScreenSideMovementProp;
         SerializedProperty screenSidesZoneSizeProp;
         SerializedProperty cameraZoomMinProp;
         SerializedProperty cameraZoomMaxProp;
@@ -43,6 +44,7 @@ namespace Unity.FantasyKingdom
             cameraDragSpeedProp = serializedObject.FindProperty("CameraDragSpeed");
             cameraRotateSpeedProp = serializedObject.FindProperty("CameraRotateSpeed");
             cameraZoomSpeedProp = serializedObject.FindProperty("CameraZoomSpeed");
+            allowScreenSideMovementProp = serializedObject.FindProperty("AllowScreenSideMovement");
             screenSidesZoneSizeProp = serializedObject.FindProperty("ScreenSidesZoneSize");
             cameraZoomMinProp = serializedObject.FindProperty("CameraZoomMin");
             cameraZoomMaxProp = serializedObject.FindProperty("CameraZoomMax");
@@ -75,6 +77,7 @@ namespace Unity.FantasyKingdom
             EditorGUILayout.PropertyField(cameraDragSpeedProp);
             EditorGUILayout.PropertyField(cameraRotateSpeedProp);
             EditorGUILayout.PropertyField(cameraZoomSpeedProp);
+            EditorGUILayout.PropertyField(allowScreenSideMovementProp);
             EditorGUILayout.PropertyField(screenSidesZoneSizeProp);
             EditorGUILayout.PropertyField(cameraZoomMinProp);
             EditorGUILayout.PropertyField(cameraZoomMaxProp);

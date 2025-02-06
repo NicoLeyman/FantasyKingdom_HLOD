@@ -20,6 +20,7 @@ MonoBehaviour:
   CameraDragSpeed: 12.5
   CameraRotateSpeed: 1.5
   CameraZoomSpeed: 5
+  AllowScreenSideMovement: 0
   ScreenSidesZoneSize: 75
   CameraTiltMin: 15
   CameraTiltMax: 50

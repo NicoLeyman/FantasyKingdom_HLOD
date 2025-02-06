@@ -247,6 +247,9 @@ namespace Unity.FantasyKingdom
         }
         private void HandleScreenSideMove(Vector3 mousePos)
         {
+            if (!currentSettings.AllowScreenSideMovement)
+                return;
+
             GetMouseScreenSide(mousePos, out int widthPos, out int heightPos);
             Vector3 moveVector = new Vector3(widthPos, 0, heightPos);
             if (moveVector != Vector3.zero && !_isRotating)

@@ -28,6 +28,9 @@ namespace Unity.FantasyKingdom
 
         [Space]
         [Header("Screen Sides")]
+        [Tooltip("Controls if the camera should pan when the cursor approaches the side of the screen.")]
+        public bool AllowScreenSideMovement = true;
+
         [SerializeField, Min(0)]
         [Tooltip("The size of the Screen Sides Zone in pixels.")]
         public float ScreenSidesZoneSize = 75f;
