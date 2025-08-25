@@ -91,7 +91,7 @@ namespace Unity.FantasyKingdom
                     lodSettingsDict.Add(curr, new Tuple<int, float>(QualitySettings.maximumLODLevel, QualitySettings.lodBias));
             if (currentSettings == (int)CameraType.GameplayCamera && ShouldChangeLODSettings())
             { 
-                QualitySettings.lodBias = 50000;
+                QualitySettings.lodBias = 2.5f;
                 QualitySettings.maximumLODLevel = currentZoomLevel;
             }        
         }
@@ -167,7 +167,9 @@ namespace Unity.FantasyKingdom
                 if(ShouldChangeLODSettings())
                 {
                     QualitySettings.maximumLODLevel = zoomLevel;
-                    QualitySettings.lodBias = 50000;
+                    //QualitySettings.lodBias = 50000;
+                    // Just set this to 2.5 which should already be way more than enough. (and the project default for high)
+                    QualitySettings.lodBias = 2.5f;
                 }
             }
             float nearClip = VirtualCamera.Lens.NearClipPlane;

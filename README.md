@@ -17,6 +17,11 @@ The following screenshots and performance metrics were captured using a release 
 | --- | --- |
 | ![](Docs/Nothing.png) | ![](Docs/HLOD.png)
 
+## Note about Steam Deck
+The build tested on Steam Deck emulated DX11, thus certain DX12 features that could have been emulated by Proton/Vulkan (such as Async compute) were not used. 
+This can have an impact on the observed performance, especially that of modern features such as GPU Resident Drawer and GPU Occlusion Culling.
+TODO: Compare builds using using Vulkan and DX12 on Steam Deck.
+
 ### License
 Copyright (c) 2025 Unity Technologies ApS
 Licensed under the Unity Companion License for Unity-dependent projects see [Unity Companion License][license].

@@ -1,0 +1,587 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: HLOD
+  m_EditorClassIdentifier: 
+  m_GroupName: HLOD
+  m_GUID: 1eb6b33653f6fe749b24e4ee2ca536d6
+  m_SerializeEntries:
+  - m_GUID: 027d0d55a270b52408aef967feb463c6
+    m_Address: Assets/HLOD/HLOD_GeneratedData/Composition_C_group65.hlod
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 092c5241c11870148b9904f3fab7caa9
+    m_Address: Assets/HLOD/HLOD_GeneratedData/Composition_C_CombinedMaterial 1_CombinedTexture
+      1_2.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0b290d6823346524a933e8a88ba1d1f5
+    m_Address: Assets/HLOD/HLOD_GeneratedData/Composition_A_group36.hlod
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0f394fb4cf783bb48a605d14f3d48ef5
+    m_Address: Assets/HLOD/HLOD_GeneratedData/Composition_B_group47.hlod
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0f9310258f38fa54eb5a333fa4313bbd
+    m_Address: Assets/HLOD/HLOD_GeneratedData/Composition_B_group3.hlod
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 107bac039179cfc4eba7681da6cca312
+    m_Address: Assets/HLOD/HLOD_GeneratedData/Composition_B_group66.hlod
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 11fed1ced7d1aaa47a2df8d88b1f9760
+    m_Address: Assets/HLOD/HLOD_GeneratedData/Composition_B_group-1.hlod
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 12749c02eb63f834bb2ec89128ce0a7b
+    m_Address: Assets/HLOD/HLOD_GeneratedData/Composition_C_group233.hlod
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 15be3f0e39496b04081cbeb9a12842a1
+    m_Address: Assets/HLOD/HLOD_GeneratedData/Composition_B_group19.hlod
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 15d9b6d233684c04a845166aab444742
+    m_Address: Assets/HLOD/HLOD_GeneratedData/Composition_A_group14.hlod
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 16d75b58f7a4b3947971ad76e2041ab9
+    m_Address: Assets/HLOD/HLOD_GeneratedData/Composition_C_group4.hlod
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1889632941993d541a266a1144e8b984
+    m_Address: Assets/HLOD/HLOD_GeneratedData/Composition_C_group189.hlod
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 19d3fd4a1bab558478ce83d2b046fffc
+    m_Address: Assets/HLOD/HLOD_GeneratedData/Composition_B_group1.hlod
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 202776edef7668d4bbce5d7f18ce6f86
+    m_Address: Assets/HLOD/HLOD_GeneratedData/Composition_C_group11.hlod
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 248c2edae4fe8d0479faf1dc6b2fb465
+    m_Address: Assets/HLOD/HLOD_GeneratedData/Composition_A_group66.hlod
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 268903ac7923b31449ca10dda2f61cb1
+    m_Address: Assets/HLOD/HLOD_GeneratedData/Composition_B_group71.hlod
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 27867235e5f667b4dbee1a98b4c659f2
+    m_Address: Assets/HLOD/HLOD_GeneratedData/Composition_A_group2.hlod
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 286616507fa5f53428ab9a285e1ca95a
+    m_Address: Assets/HLOD/HLOD_GeneratedData/Composition_A_group65.hlod
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 29f4e599c87529445b5cddaa718c8c3f
+    m_Address: Assets/HLOD/HLOD_GeneratedData/Composition_C_group1.hlod
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2b721c4fafcfbe64481c6f72d49cd498
+    m_Address: Assets/HLOD/HLOD_GeneratedData/Composition_A_group72.hlod
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2d040373c2d76de4cb009d443680f7e2
+    m_Address: Assets/HLOD/HLOD_GeneratedData/Composition_C_group69.hlod
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2d4fe4351f4676b4cbc4506e4ea143f9
+    m_Address: Assets/HLOD/HLOD_GeneratedData/Composition_C_group0.hlod
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2e2ff811942eeae4c8261fbf8b3aa6fd
+    m_Address: Assets/HLOD/HLOD_GeneratedData/Composition_C_group3.hlod
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2e53db45889297240ae3b60ec0638cab
+    m_Address: Assets/HLOD/HLOD_GeneratedData/Composition_A_group234.hlod
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2f5cc9dbe13e01c4b9de887e26d7f6b0
+    m_Address: Assets/HLOD/HLOD_GeneratedData/Composition_C_group277.hlod
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 30b575654cf9bbe46901dbab7cf8ea7e
+    m_Address: Assets/HLOD/HLOD_GeneratedData/Composition_A_CombinedMaterial 1.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 329f0e6200048ff409aa9aa1536577c6
+    m_Address: Assets/HLOD/HLOD_GeneratedData/Composition_B_group148.hlod
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3607cbd5600316b4d8b7b1b8236021a3
+    m_Address: Assets/HLOD/HLOD_GeneratedData/Composition_B_group70.hlod
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 380e62743c0a18b48a365e55468acdd8
+    m_Address: Assets/HLOD/HLOD_GeneratedData/Composition_B_CombinedMaterial 1.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3a508434b051d0b44ac326733a49de06
+    m_Address: Assets/HLOD/HLOD_GeneratedData/Composition_C_group146.hlod
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3eb42fc3c01fe204e91f99ba80ec6dfc
+    m_Address: Assets/HLOD/HLOD_GeneratedData/Composition_B_group236.hlod
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3f9f7beaba55a0d4e8dc5f8f82453c12
+    m_Address: Assets/HLOD/HLOD_GeneratedData/Composition_C_group58.hlod
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4274c44bf249a5a4caca1b0fbb594892
+    m_Address: Assets/HLOD/HLOD_GeneratedData/Composition_B_group36.hlod
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 43f9857505b78d8409b1ded3155ba1cb
+    m_Address: Assets/HLOD/HLOD_GeneratedData/Composition_C_group236.hlod
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 44f52a0c67a242548936f517009ddf90
+    m_Address: Assets/HLOD/HLOD_GeneratedData/Composition_C_CombinedMaterial 1.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 452ecb3f60d087f40812068d6903ab3e
+    m_Address: Assets/HLOD/HLOD_GeneratedData/Composition_B_group65.hlod
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 45418c3b17f823e46ad6946727ec6c38
+    m_Address: Assets/HLOD/HLOD_GeneratedData/Composition_C_group2.hlod
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4a1add199eeb8cf48ae2534765c86ea1
+    m_Address: Assets/HLOD/HLOD_GeneratedData/Composition_C_group279.hlod
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4ea9a7513adf0e947bf8f2e56d510611
+    m_Address: Assets/HLOD/HLOD_GeneratedData/Composition_A_CombinedMaterial 1_CombinedTexture
+      1_0.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 539db80230a10a74c88f6f54f9a766ec
+    m_Address: Assets/HLOD/HLOD_GeneratedData/Composition_B_group233.hlod
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 53be299407acd8947a258fac8dea65fe
+    m_Address: Assets/HLOD/HLOD_GeneratedData/Composition_A_group47.hlod
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 542c88734b72e7c4f8b456eb3c9c22bf
+    m_Address: Assets/HLOD/HLOD_GeneratedData/Composition_B_group17.hlod
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 58582d84cb29cb943b676c58cc410fd8
+    m_Address: Assets/HLOD/HLOD_GeneratedData/Composition_B_group72.hlod
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 594243937da657c43b578a567723d5a4
+    m_Address: Assets/HLOD/HLOD_GeneratedData/Composition_A_CombinedMaterial 1_CombinedTexture
+      1_1.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5b93105cece5b954f8aca60c5b1456c5
+    m_Address: Assets/HLOD/HLOD_GeneratedData/Composition_B_group12.hlod
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5c0ef445736e13a429edb3b894d3bcee
+    m_Address: Assets/HLOD/HLOD_GeneratedData/Composition_A_group1.hlod
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5c593bc730936e64e90fa86645f98db5
+    m_Address: Assets/HLOD/HLOD_GeneratedData/Composition_C_group72.hlod
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5f2a0e6f491697a4cafbc667ace5ae97
+    m_Address: Assets/HLOD/HLOD_GeneratedData/Composition_A_group77.hlod
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 62ac88afb4dd3df4a9767655fa448050
+    m_Address: Assets/HLOD/HLOD_GeneratedData/Composition_C_group16.hlod
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 651598f6c76530447b6e545f72e0ad6c
+    m_Address: Assets/HLOD/HLOD_GeneratedData/Composition_C_group19.hlod
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 66c90bb4e0d1cf146992b7b46c7b72ca
+    m_Address: Assets/HLOD/HLOD_GeneratedData/Composition_A_group277.hlod
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 704d6bb6b3714ff4ab82a659f07de09f
+    m_Address: Assets/HLOD/HLOD_GeneratedData/Composition_A_group60.hlod
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 714c8ca54ce89f744a34d9ea4c24efc3
+    m_Address: Assets/HLOD/HLOD_GeneratedData/Composition_B_group58.hlod
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 723ae5395284e4741a50cda78d52c57e
+    m_Address: Assets/HLOD/HLOD_GeneratedData/Composition_A_group279.hlod
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 738d99de8465a9f4a8eb004ec2fddbd0
+    m_Address: Assets/HLOD/HLOD_GeneratedData/Composition_A_group8.hlod
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 79204945089620440a5123d32ab9908d
+    m_Address: Assets/HLOD/HLOD_GeneratedData/Composition_C_group47.hlod
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7a8a56ee6a87c844b98e8503feb937e0
+    m_Address: Assets/HLOD/HLOD_GeneratedData/Composition_B_group2.hlod
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8086eff1ade69bb44acc2fd54fb5dbe3
+    m_Address: Assets/HLOD/HLOD_GeneratedData/Composition_A_group4.hlod
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 817e6d4dbfa05454b95db28753a551bf
+    m_Address: Assets/HLOD/HLOD_GeneratedData/Composition_B_group34.hlod
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 826cd479d33427a4886b100e6e228f00
+    m_Address: Assets/HLOD/HLOD_GeneratedData/Composition_C_CombinedMaterial 1_CombinedTexture
+      1_1.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8707dc890581de640816d142e6af8114
+    m_Address: Assets/HLOD/HLOD_GeneratedData/Composition_A_group148.hlod
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 89157c75cb2811344a6ad04eb7b62c64
+    m_Address: Assets/HLOD/HLOD_GeneratedData/Composition_B_group45.hlod
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 89b87508d1f1c3b49ba34fb388365664
+    m_Address: Assets/HLOD/HLOD_GeneratedData/Composition_B_group68.hlod
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8ab8528858109784dad36ef8ce15c05b
+    m_Address: Assets/HLOD/HLOD_GeneratedData/Composition_B_CombinedMaterial 1_CombinedTexture
+      1_1.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8b255c8c1d8679d4aa44cf5ca3424127
+    m_Address: Assets/HLOD/HLOD_GeneratedData/Composition_B_group279.hlod
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8e0dd8b7e9f0aae45a35d597f1c480d1
+    m_Address: Assets/HLOD/HLOD_GeneratedData/Composition_B_group234.hlod
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 93f37c1cc60a68a44bf9cd4a90a4ba2f
+    m_Address: Assets/HLOD/HLOD_GeneratedData/Composition_B_group11.hlod
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 96ad9253cb5baa748afbede39c7823a9
+    m_Address: Assets/HLOD/HLOD_GeneratedData/Composition_C_group-1.hlod
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 98a03f13cde53f34ebfbd4bcf3b301bb
+    m_Address: Assets/HLOD/HLOD_GeneratedData/Composition_A_group11.hlod
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 991e92a0f54ebcc4eb937f80a5863d6a
+    m_Address: Assets/HLOD/HLOD_GeneratedData/Composition_B_group77.hlod
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9b78df747810d0343a55323f879441c3
+    m_Address: Assets/HLOD/HLOD_GeneratedData/Composition_C_CombinedMaterial 1_CombinedTexture
+      1_0.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9d0090764fd21a44cbf3ee85ef8a471f
+    m_Address: Assets/HLOD/HLOD_GeneratedData/Composition_B_group60.hlod
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9f50177f0a13b5e44beaf06fb22e2652
+    m_Address: Assets/HLOD/HLOD_GeneratedData/Composition_A_group45.hlod
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a64a182bb4c15a44094b53c087700fb0
+    m_Address: Assets/HLOD/HLOD_GeneratedData/Composition_A_group69.hlod
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a71a0328605f09b4aa69a1e4a11d0442
+    m_Address: Assets/HLOD/HLOD_GeneratedData/Composition_A_group3.hlod
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ab253c3b31a2e224392c48c4be785c19
+    m_Address: Assets/HLOD/HLOD_GeneratedData/Composition_A_group71.hlod
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: afea5acce39fa2747a146921b653316c
+    m_Address: Assets/HLOD/HLOD_GeneratedData/Composition_A_group70.hlod
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b399eda7b457bb7409d4c0abc5a610a6
+    m_Address: Assets/HLOD/HLOD_GeneratedData/Composition_B_CombinedMaterial 1_CombinedTexture
+      1_2.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b872c7c02ef255b45af4692eb7d1642d
+    m_Address: Assets/HLOD/HLOD_GeneratedData/Composition_A_group34.hlod
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b92bde35a22113b44830e105da6cb2e1
+    m_Address: Assets/HLOD/HLOD_GeneratedData/Composition_A_group17.hlod
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b937fd7b23b4e454a9c7dea7ea90eddd
+    m_Address: Assets/HLOD/HLOD_GeneratedData/Composition_C_group234.hlod
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bbb3fa1c4868b824dad360c7933f6d09
+    m_Address: Assets/HLOD/HLOD_GeneratedData/Composition_B_CombinedMaterial 1_CombinedTexture
+      1_0.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: be611aa2a8726dd4e8ed6e06a064cd52
+    m_Address: Assets/HLOD/HLOD_GeneratedData/Composition_A_group58.hlod
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: be9a18d1d89041c46ba02b4928820614
+    m_Address: Assets/HLOD/HLOD_GeneratedData/Composition_C_group66.hlod
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c0ede6e6c3aae6541bbfa95ba86597e1
+    m_Address: Assets/HLOD/HLOD_GeneratedData/Composition_C_group17.hlod
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c6405535740747e4fa54cccec327664f
+    m_Address: Assets/HLOD/HLOD_GeneratedData/Composition_C_group14.hlod
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c694e2210f8d44444bcf087fccdbb5b0
+    m_Address: Assets/HLOD/HLOD_GeneratedData/Composition_C_group77.hlod
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c786547ff4166774f9184ce2a7f0b757
+    m_Address: Assets/HLOD/HLOD_GeneratedData/Composition_A_group189.hlod
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c938470e06145fb43bed7a46917a88ec
+    m_Address: Assets/HLOD/HLOD_GeneratedData/Composition_C_group8.hlod
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d1f69e7e7918cde4683c3f4a34bc5950
+    m_Address: Assets/HLOD/HLOD_GeneratedData/Composition_B_group277.hlod
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d336681cc2ea95546a092e148edb3cc5
+    m_Address: Assets/HLOD/HLOD_GeneratedData/Composition_A_group68.hlod
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d3a345737549d9b4ebfd5660177677e0
+    m_Address: Assets/HLOD/HLOD_GeneratedData/Composition_C_group60.hlod
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d5eccff2afe1726439fb600d2d202d1c
+    m_Address: Assets/HLOD/HLOD_GeneratedData/Composition_B_group4.hlod
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: da361a9758da0574ebd3ee3c5c706708
+    m_Address: Assets/HLOD/HLOD_GeneratedData/Composition_A_group0.hlod
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dbc1ddc93dc603447974abd2f29f8f31
+    m_Address: Assets/HLOD/HLOD_GeneratedData/Composition_A_group146.hlod
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dc824575fcf18644195b51bda4767df9
+    m_Address: Assets/HLOD/HLOD_GeneratedData/Composition_A_group19.hlod
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: df148981623bf1d4a8f6f49012b512a3
+    m_Address: Assets/HLOD/HLOD_GeneratedData/Composition_C_group36.hlod
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: df788714eeea3f24389c18f7e3850ca4
+    m_Address: Assets/HLOD/HLOD_GeneratedData/Composition_B_group69.hlod
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e111fb4a82d28624e90026632a7df115
+    m_Address: Assets/HLOD/HLOD_GeneratedData/Composition_A_group-1.hlod
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e5a69d34f8f790b46ac72869598a202e
+    m_Address: Assets/HLOD/HLOD_GeneratedData/Composition_A_CombinedMaterial 1_CombinedTexture
+      1_2.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: eed7fc173e4f31f44ad2e348e019a72c
+    m_Address: Assets/HLOD/HLOD_GeneratedData/Composition_B_group189.hlod
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ef4813c77692afd45902df6e0868f1ef
+    m_Address: Assets/HLOD/HLOD_GeneratedData/Composition_C_group34.hlod
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ef5abc2b7245bbe429e2263ed0583736
+    m_Address: Assets/HLOD/HLOD_GeneratedData/Composition_A_group236.hlod
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f05b4244a55b20a4d99d11425453e558
+    m_Address: Assets/HLOD/HLOD_GeneratedData/Composition_B_group0.hlod
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f2690eca8559f5148bb5f9d45ef4199a
+    m_Address: Assets/HLOD/HLOD_GeneratedData/Composition_B_group16.hlod
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f33986f0811c6f646b5d510e9e857a5e
+    m_Address: Assets/HLOD/HLOD_GeneratedData/Composition_A_group233.hlod
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f6922e5a1f68d1144bb70059dc975add
+    m_Address: Assets/HLOD/HLOD_GeneratedData/Composition_A_group16.hlod
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f81ea3456ee5128488470613b0825341
+    m_Address: Assets/HLOD/HLOD_GeneratedData/Composition_C_group70.hlod
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f918174c8b3cf3a499f9857f36ee9e8a
+    m_Address: Assets/HLOD/HLOD_GeneratedData/Composition_B_group8.hlod
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fbcd859054ad59d489f2bce940cc6656
+    m_Address: Assets/HLOD/HLOD_GeneratedData/Composition_C_group71.hlod
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ffc652bc964b3d24d8d39b63b4d9e1dd
+    m_Address: Assets/HLOD/HLOD_GeneratedData/Composition_B_group14.hlod
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: f3c5047db0546284c84ee1f8fc2fc958, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 74f99e44fab2dbf46980ada3cb3f34a9, type: 2}
+    - {fileID: 11400000, guid: a1f01bb4de2f4d44486ca56341f506db, type: 2}

@@ -14,23 +14,26 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Shader: {fileID: 0}
   ShaderGUID: 933532a4fcc9baf4fa0491de14d08ed7
-  EnableTintColor: 1
-  TintColorName: _Color
   OutputTexturePropertyToTint: _BaseMap
   TextureInfoList:
-  - InputNames:
-    - _MainTex
+  - InputTexturePropertyNames:
     - _BaseMap
+    - _MainTex
+    InputColorPropertyNames:
+    - _BaseColor
+    - _Color
     OutputName: _BaseMap
     Type: 0
-  - InputNames:
+  - InputTexturePropertyNames:
     - _BumpMap
     - _NormalMap
-    - _NM
+    InputColorPropertyNames: []
     OutputName: _BumpMap
     Type: 2
-  - InputNames:
+  - InputTexturePropertyNames:
     - _MetallicGlossMap
     - _SpecGlossMap
+    InputColorPropertyNames:
+    - _SpecColor
     OutputName: _MetallicGlossMap
     Type: 1
